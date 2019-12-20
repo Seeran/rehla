@@ -16,12 +16,9 @@
         http://one.sky.sy/images/
     </author>
 
-<plugin name="cordova-android-support-gradle-release" source="npm">
-<variable name="ANDROID_SUPPORT_VERSION" value="28.0.0"/>
-</plugin>
 <plugin name="cordova-plugin-file" source="npm"/>
+<plugin name="cordova-plugin-file-opener2" source="git" spec="https://github.com/neptsoft/cordova-plugin-file-opener2"/>
 <plugin name="cordova-plugin-file-transfer" source="npm"/>
-
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
