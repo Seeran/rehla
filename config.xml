@@ -18,7 +18,7 @@
 
 
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.3.0" />
-    
+    <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,assets,root" />‎
 
     <!--
         If you do not want any permissions to be added to your app, add the
