@@ -17,8 +17,8 @@
     </author>
 
 
-    <plugin name="cordova-plugin-file" />
-    <plugin name="cordova-plugin-file-transfer"  />
+    <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.3.0" />
+    
 
     <!--
         If you do not want any permissions to be added to your app, add the
