@@ -22,7 +22,12 @@
         permission on your app, which PhoneGap requires.
     -->
     <preference name="permissions"                value="none"/>
-
+	
+	<!-- to enable individual permissions use the following examples -->
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+	
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
@@ -46,16 +51,20 @@
 
     <!-- Core plugins -->
     <!--<plugin name="cordova-plugin-battery-status" />-->
+ <!--	<plugin name="cordova-plugin-camera" ></plugin>-->
+  <!--   <plugin name="cordova-plugin-media-capture" />-->
     <!--<plugin name="cordova-plugin-console" />-->
     <!--<plugin name="cordova-plugin-contacts" />-->
     <!--<plugin name="cordova-plugin-device" />-->
     <!--<plugin name="cordova-plugin-device-motion" />-->
     <!--<plugin name="cordova-plugin-device-orientation" />-->
     <!--<plugin name="cordova-plugin-dialogs" />-->
-    <plugin name="cordova-plugin-file" />
-    <plugin name="cordova-plugin-file-transfer" />
+  <!--   <plugin name="cordova-plugin-file" />-->
+   <!--  <plugin name="cordova-plugin-file-transfer" />-->
     <!--<plugin name="cordova-plugin-geolocation" />-->
     <!--<plugin name="cordova-plugin-globalization" />-->
+    <!-- <plugin name="cordova-plugin-inappbrowser" />-->
+    <!-- <plugin name="cordova-plugin-media" />-->
     <!--<plugin name="cordova-plugin-network-information" />-->
     <!--<plugin name="cordova-plugin-splashscreen" />-->
     <!--<plugin name="cordova-plugin-vibration" />-->
