@@ -17,12 +17,7 @@
     </author>
 
 
-     <custom-config-file parent="/*" target="AndroidManifest.xml">
-            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-            <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
-            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-        </custom-config-file>
+<feature name="http://api.phonegap.com/1.0/file"/>
 
 
     <!--
