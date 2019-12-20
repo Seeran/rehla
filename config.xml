@@ -16,20 +16,24 @@
         http://one.sky.sy/images/
     </author>
 
+
+     <custom-config-file parent="/*" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        </custom-config-file>
+
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
-		
-		 <preference name="permissions"                value="none"/>
-		
-    -->
-   
 	
-	<preference name="AndroidPersistentFileLocation" value="Internal" />
-
-	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
-
+    -->
+    <preference name="permissions"                value="none"/>
+	
+	
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
